@@ -4,7 +4,6 @@ const app = express();
 const server = require('http').Server(app);
 var io = require('socket.io')(server);
 const dotenv = require('dotenv');
-var uParser = require('universal-emoji-parser');
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
